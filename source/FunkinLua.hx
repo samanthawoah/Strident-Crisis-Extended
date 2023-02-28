@@ -377,6 +377,15 @@ class FunkinLua {
 				luaTrace('Couldnt find object: ' + vars);
 			}
 		});
+		Lua_helper.add_callback(lua, "changeLuaSpriteColor", function(tag:String, color:String) {
+			var colorNum:Int = Std.parseInt(color);
+			if(!color.startsWith('0x')) colorNum = Std.parseInt('0xff' + color);
+
+			if(lePlayState.modchartSprites.exists(tag)) {
+				lePlayState.modchartSprites.get(tag).color = colorNum;
+				return;
+			}
+		});
 
 		//Tween shit, but for strums
 		Lua_helper.add_callback(lua, "noteTweenX", function(tag:String, note:Int, value:Dynamic, duration:Float, ease:String) {

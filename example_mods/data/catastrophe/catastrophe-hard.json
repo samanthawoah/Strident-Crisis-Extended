@@ -4459,7 +4459,7 @@
 		"song": "Catastrophe",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "farm",
+		"stage": "nightfarm",
 		"bpm": 225,
 		"speed": 3.2
 	}

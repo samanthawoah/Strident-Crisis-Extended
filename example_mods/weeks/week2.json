@@ -1,43 +1,57 @@
 {
-	"storyName": "the farm...",
+	"storyName": "The Burning Farm",
 	"hideFreeplay": false,
-	"weekBackground": "pissy",
+	"weekBackground": "hellfarm",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"songs": [
+		[
+			"Reality-Breaking",
+			"angrymarelo",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Dismember",
+			"angrymarelo",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Endeavour",
+			"garcello",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Tenacity",
+			"garcello",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"songs": [
-		[
-			"Catastrophe",
-			"pissyboy",
-			[
-				0,
-				255,
-				0
-			]
-		],
-		[
-			"Shattered",
-			"pissyboy",
-			[
-				0,
-				215,
-				0
-			]
-		],
-		[
-			"Overthink",
-			"overthink",
-			[
-				0,
-				175,
-				0
-			]
-		]
-	],
-	"hideStoryMode": false,
-	"weekName": "Burning Farm"
+	"weekName": "The Burning Farm"
 }

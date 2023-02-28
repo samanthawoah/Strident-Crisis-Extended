@@ -1,45 +1,41 @@
 {
-	"storyName": "The Burning Farm",
+	"storyName": "The Tri-Dimension",
 	"hideFreeplay": false,
-	"weekBackground": "hellfarm",
+	"weekBackground": "expungeds",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
-			"Reality-Breaking",
-			"angrymarelo",
+			"Cheating",
+			"3d",
 			[
-				255,
+				26,
+				195,
+				33
+			]
+		],
+		[
+			"Unfairness",
+			"unfairbambi",
+			[
+				160,
 				0,
 				0
 			]
 		],
 		[
-			"Dismember",
-			"angrymarelo",
-			[
-				255,
-				0,
-				0
-			]
-		],
-		[
-			"Endeavour",
-			"garcello",
-			[
-				255,
-				255,
-				255
-			]
-		],
-		[
-			"Tenacity",
-			"garcello",
+			"Opposition",
+			"OppoExpunged",
 			[
 				255,
 				255,
@@ -48,10 +44,5 @@
 		]
 	],
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"weekName": "The Burning Farm"
+	"weekName": "Tri-Dimension"
 }

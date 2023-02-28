@@ -1,5 +1,5 @@
 {
-	"storyName": "The Tri-Dimension",
+	"storyName": "Expunged's Insanity",
 	"hideFreeplay": false,
 	"weekBackground": "expungeds",
 	"weekBefore": "tutorial",
@@ -15,33 +15,6 @@
 		""
 	],
 	"songs": [
-		[
-			"Cheating",
-			"3d",
-			[
-				26,
-				195,
-				33
-			]
-		],
-		[
-			"Unfairness",
-			"unfairbambi",
-			[
-				160,
-				0,
-				0
-			]
-		],
-		[
-			"Opposition",
-			"OppoExpunged",
-			[
-				255,
-				255,
-				255
-			]
-		],
 		[
 			"Thearchy",
 			"ThearExpunged",
@@ -80,5 +53,5 @@
 		]
 	],
 	"hideStoryMode": false,
-	"weekName": "Tri-Dimension"
+	"weekName": "Insanity"
 }
