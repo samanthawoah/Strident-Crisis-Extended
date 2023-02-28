@@ -25,10 +25,6 @@
         "mewhennopizzarolls"
       ],
       [
-        "Bambi (Overthink)",
-        "bambioverthink"
-      ],
-      [
         "Bambi (Mad)",
         "mareloangry"
       ],
@@ -39,10 +35,6 @@
       [
         "Bambi (Old)",
         "bambiold"
-      ],
-      [
-        "Epitome",
-        "epitomeMan"
       ]
     ],
     [
@@ -64,21 +56,11 @@
       [
         1,
         1,
-        [-100, 0]
-      ],
-      [
-        1,
-        1,
         false
       ],
       [
         1,
         1,
-        false
-      ],
-      [
-        0.7,
-        0.7,
         false
       ]
     ]
@@ -161,69 +143,6 @@
   [
     [
       [
-        "Potent Bambi",
-        "potentbambi"
-      ],
-      [
-        "Potent Bambi (Potent 2)",
-        "potentbambismilebitch"
-      ]
-    ],
-    [
-      [
-        1,
-        1,
-        [-100, 0]
-      ],
-      [
-        1,
-        1,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Samber",
-        "samber"
-      ],
-      [
-        "Samber (Mac Party)",
-        "sambermacparty"
-      ]
-    ],
-    [
-      [
-        0.8,
-        0.8,
-        false
-      ],
-      [
-        1,
-        1,
-        [0, -100]
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Saper",
-        "Saper"
-      ]
-    ],
-    [
-      [
-        0.8,
-        0.8,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
         "Conbi",
         "conbi"
       ]
@@ -269,51 +188,6 @@
   [
     [
       [
-        "Bumbo",
-        "bumbo"
-      ]
-    ],
-    [
-      [
-        0.8,
-        0.8,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Seven",
-        "3dseven"
-      ]
-    ],
-    [
-      [
-        0.8,
-        0.8,
-        [-100, -100]
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Orbi",
-        "Orbi"
-      ]
-    ],
-    [
-      [
-        0.8,
-        0.8,
-        [-150, -200]
-      ]
-    ]
-  ],
-  [
-    [
-      [
         "Linbi",
         "linbi"
       ]
@@ -323,51 +197,6 @@
         1,
         1,
         false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Dortas",
-        "dortas"
-      ]
-    ],
-    [
-      [
-        0.9,
-        0.9,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Bambice",
-        "bambice"
-      ]
-    ],
-    [
-      [
-        1,
-        1,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Bambinton",
-        "bambinton"
-      ]
-    ],
-    [
-      [
-        0.5,
-        0.5,
-        [300, 200]
       ]
     ]
   ],
@@ -407,51 +236,6 @@
         0.7,
         0.7,
         [-100, 0]
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "GOD",
-        "god"
-      ]
-    ],
-    [
-      [
-        0.6,
-        0.6,
-        [-175, -300]
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "El Mati",
-        "descarga"
-      ]
-    ],
-    [
-      [
-        0.9,
-        0.9,
-        false
-      ]
-    ]
-  ],
-  [
-    [
-      [
-        "Gary",
-        "Gary"
-      ]
-    ],
-    [
-      [
-        1,
-        1,
-        [-150, -275]
       ]
     ]
   ],

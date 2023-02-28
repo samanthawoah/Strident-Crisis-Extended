@@ -14,7 +14,7 @@
 			"Reality-Breaking",
 			"angrymarelo",
 			[
-				255,
+				215,
 				0,
 				0
 			]
@@ -23,7 +23,7 @@
 			"Dismember",
 			"angrymarelo",
 			[
-				255,
+				195,
 				0,
 				0
 			]
@@ -32,18 +32,18 @@
 			"Endeavour",
 			"garcello",
 			[
-				255,
-				255,
-				255
+				215,
+				215,
+				175
 			]
 		],
 		[
 			"Tenacity",
 			"garcello",
 			[
-				255,
-				255,
-				255
+				195,
+				195,
+				155
 			]
 		]
 	],

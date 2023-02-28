@@ -62,7 +62,6 @@ class FreeplayState extends MusicBeatState
 	var playTheSongWith:Alphabet;
 
 	
-//'Blocked', 'Sweetcorn', 'Revise', 'Cob', 'Idiot', 'Apathetic', 'Screwed', 'Overthink', 'Nomophobia', 'Dismember', 'Kalampokiphobia', 'Reality-Breaking', 'Opposition', 'Cheating', 'Shit', 'Unfairness', 'Phonophobia', 'Hellbreaker'
 	var main:Array<String> = [];
 	var extra:Array<String> = [];
 	var joke:Array<String> = [];
@@ -73,7 +72,7 @@ class FreeplayState extends MusicBeatState
 	var theCurSectionLmao:FlxText;
 	var sectionImage:FlxSprite;
 	var inMainFreeplay:Bool = false;
-	var sections:Array<String> = ['main', 'extra', 'joke', 'hidden'];
+	var sections:Array<String> = ['main', 'extra', 'hidden'];
 
 	var sectionString:String = 'UNKNOWN';
 	
@@ -93,7 +92,6 @@ class FreeplayState extends MusicBeatState
 
 	var sectionImageMain:FlxSprite;
 	var sectionImageExtra:FlxSprite;
-	var sectionImageJoke:FlxSprite;
 	var sectionImageHidden:FlxSprite;
 	var playingNow:Bool = false;
 
@@ -196,14 +194,7 @@ class FreeplayState extends MusicBeatState
 		add(sectionImageExtra);
 		sectionImageExtra.animation.play('extra basic instance 1');
 
-		sectionImageJoke = new FlxSprite(0, sectionImageMain.y + 300).loadGraphic(Paths.image('main_extra_joke_hidden'), true);
-		sectionImageJoke.frames = Paths.getSparrowAtlas('main_extra_joke_hidden');
-		sectionImageJoke.animation.addByPrefix('joke basic instance 1', 'joke basic instance 1', 24, true);
-		sectionImageJoke.animation.addByPrefix('joke white instance 1', 'joke white instance 1', 24, true);
-		add(sectionImageJoke);
-		sectionImageJoke.animation.play('joke basic instance 1');
-
-		sectionImageHidden = new FlxSprite(0, sectionImageMain.y + 450).loadGraphic(Paths.image('main_extra_joke_hidden'), true);
+		sectionImageHidden = new FlxSprite(0, sectionImageMain.y + 300).loadGraphic(Paths.image('main_extra_joke_hidden'), true);
 		sectionImageHidden.frames = Paths.getSparrowAtlas('main_extra_joke_hidden');
 		sectionImageHidden.animation.addByPrefix('hidden basic instance 1', 'hidden basic instance 1', 24, true);
 		sectionImageHidden.animation.addByPrefix('hidden white instance 1', 'hidden white instance 1', 24, true);
@@ -227,7 +218,6 @@ class FreeplayState extends MusicBeatState
 	public function goToFreeplay()
 	{
 		sectionImageExtra.alpha = 0;
-		sectionImageJoke.alpha = 0;
 		sectionImageMain.alpha = 0;
 		sectionImageHidden.alpha = 0;
 		sectionImage.alpha = 0;
@@ -534,14 +524,6 @@ class FreeplayState extends MusicBeatState
 				}
 			else {
 				sectionImageExtra.animation.play('extra basic instance 1');
-			}
-
-			if(sections[sectionSelected] == 'joke')
-				{
-					sectionImageJoke.animation.play('joke white instance 1');
-				}
-			else {
-				sectionImageJoke.animation.play('joke basic instance 1');
 			}
 
 			if(sections[sectionSelected] == 'hidden')
@@ -987,11 +969,6 @@ class FreeplayState extends MusicBeatState
 						fadeSections(2);
 						fadeSections(3);
 					case 2:
-						FlxFlicker.flicker(sectionImageJoke, 1, 0.1, true);
-						fadeSections(1);
-						fadeSections(0);
-						fadeSections(3);
-					case 3:
 						FlxFlicker.flicker(sectionImageHidden, 1, 0.1, true);
 						fadeSections(1);
 						fadeSections(2);
@@ -1055,8 +1032,6 @@ class FreeplayState extends MusicBeatState
 				case 1:
 					FlxTween.tween(sectionImageExtra, {alpha: 0}, 0.25, {ease: FlxEase.cubeIn, type:ONESHOT});
 				case 2:
-					FlxTween.tween(sectionImageJoke, {alpha: 0}, 0.25, {ease: FlxEase.cubeIn, type:ONESHOT});
-				case 3:
 					FlxTween.tween(sectionImageHidden, {alpha: 0}, 0.25, {ease: FlxEase.cubeIn, type:ONESHOT});
 			}
 		}

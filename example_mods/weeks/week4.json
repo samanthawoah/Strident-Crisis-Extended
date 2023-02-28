@@ -16,15 +16,6 @@
 	],
 	"songs": [
 		[
-			"Thearchy",
-			"ThearExpunged",
-			[
-				255,
-				255,
-				255
-			]
-		],
-		[
 			"Transcendent",
 			"ThearExpunged",
 			[
@@ -34,21 +25,30 @@
 			]
 		],
 		[
+			"Thearchy",
+			"ThearExpunged",
+			[
+				235,
+				235,
+				235
+			]
+		],
+		[
 			"Tsukareta",
 			"tsukareta",
 			[
-				255,
-				255,
-				255
+				215,
+				215,
+				215
 			]
 		],
 		[
 			"Exasperation",
 			"phono",
 			[
-				255,
-				255,
-				255
+				195,
+				195,
+				195
 			]
 		]
 	],
